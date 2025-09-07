@@ -550,4 +550,5 @@ Give a ⭐️ if this project helped you! Your support helps drive development.
 
 ---
 
-**Made with ❤️ by [souvik](www.linkedin.com/in/souvik-mahanta)**
+
+**Made with ❤️ by [souvik](https://www.linkedin.com/in/souvik-mahanta)**
