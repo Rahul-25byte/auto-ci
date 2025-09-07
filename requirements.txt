@@ -1,0 +1,15 @@
+PyYAML>=6.0
+pathlib2>=2.3.0; python_version<"3.4"
+dataclasses>=0.6; python_version<"3.7"
+
+# requirements-dev.txt  
+pytest>=7.0.0
+pytest-cov>=4.0.0
+black>=23.0.0
+flake8>=6.0.0
+isort>=5.0.0
+mypy>=1.0.0
+
+# Optional dependencies
+flask>=2.0.0
+PyGithub>=1.55.0
