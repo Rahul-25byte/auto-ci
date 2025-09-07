@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  auto-ci:
+    build: .
+    container_name: auto-ci
+    volumes:
+      - .:/app
+      - /var/run/docker.sock:/var/run/docker.sock
+    ports:
+      - "5000:5000"
+    environment:
+      - AUTOCI_LOG_LEVEL=INFO
+    command: python -c "from auto_ci import AutoCIWebAPI; AutoCIWebAPI().run()"
+  
+  auto-ci-dev:
+    build: 
+      context: .
+      dockerfile: Dockerfile.dev
+    container_name: auto-ci-dev
+    volumes:
+      - .:/app
+      - auto-ci-cache:/home/autoci/.cache
+    ports:
+      - "5001:5000"
+    environment:
+      - AUTOCI_LOG_LEVEL=DEBUG
+      - FLASK_ENV=development
+    command: python -c "from auto_ci import AutoCIWebAPI; AutoCIWebAPI().run(debug=True)"
+
+volumes:
+  auto-ci-cache:
