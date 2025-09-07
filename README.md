@@ -1,11 +1,12 @@
 # 🚀 Auto-CI: Automated CI/CD Pipeline Generator
 
-[![CI](https://github.com/auto-ci/auto-ci/workflows/CI/badge.svg)](https://github.com/auto-ci/auto-ci/actions)
-[![PyPI version](https://badge.fury.io/py/auto-ci.svg)](https://badge.fury.io/py/auto-ci)
-[![Python versions](https://img.shields.io/pypi/pyversions/auto-ci.svg)](https://pypi.org/project/auto-ci/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Development Status](https://img.shields.io/badge/status-development-orange.svg)](https://github.com/souvik03-136/auto-ci)
 
 **Auto-CI** is an intelligent tool that automatically scans your repository, detects your tech stack, and generates optimized CI/CD pipelines for GitHub Actions, GitLab CI, CircleCI, and more.
+
+> ⚠️ **Development Status**: This project is currently under active development. Install directly from GitHub for the latest features.
 
 ## ✨ Features
 
@@ -21,8 +22,16 @@
 
 ### Installation
 
+Since this project is still in development, install directly from GitHub:
+
 ```bash
-pip install auto-ci
+# Install from GitHub (latest development version)
+pip install git+https://github.com/souvik03-136/auto-ci.git
+
+# Or clone and install locally for development
+git clone https://github.com/souvik03-136/auto-ci.git
+cd auto-ci
+pip install -e .
 ```
 
 ### Basic Usage
@@ -331,10 +340,14 @@ auto-ci/
     └── go-api/
 ```
 
-## 🧪 Running Tests
+## 🧪 Development Setup
 
 ```bash
-# Install development dependencies
+# Clone the repository
+git clone https://github.com/souvik03-136/auto-ci.git
+cd auto-ci
+
+# Install in development mode
 pip install -e .[dev]
 
 # Run tests
@@ -354,6 +367,9 @@ isort --check-only auto_ci.py
 We welcome contributions! Here's how to get started:
 
 1. **Fork the repository**
+   ```bash
+   git clone https://github.com/souvik03-136/auto-ci.git
+   ```
 2. **Create a feature branch**
    ```bash
    git checkout -b feature/amazing-feature
@@ -422,7 +438,7 @@ To add support for a new programming language:
 **Issue**: `auto-ci: command not found`
 ```bash
 # Solution: Make sure auto-ci is installed and in your PATH
-pip install auto-ci
+pip install git+https://github.com/souvik03-136/auto-ci.git
 # Or if installed with --user
 export PATH=$PATH:~/.local/bin
 ```
@@ -481,20 +497,26 @@ Auto-CI generated pipelines show significant performance improvements:
 
 ## 🗺️ Roadmap
 
-### v1.1 (Next Release)
+### v0.2 (Next Release)
+- [ ] Enhanced language detection
+- [ ] More CI/CD platform support
+- [ ] Improved pipeline optimization
+- [ ] Better error handling and validation
+- [ ] Comprehensive test coverage
+
+### v0.3 (Future)
 - [ ] Jenkins pipeline support
 - [ ] Azure DevOps pipelines
 - [ ] AWS CodeBuild support
 - [ ] Bitbucket Pipelines
 - [ ] Enhanced security scanning
-- [ ] Pipeline performance analytics
 
-### v1.2 (Future)
-- [ ] AI-powered pipeline optimization
-- [ ] Custom rule definitions
-- [ ] Integration with popular deployment platforms
-- [ ] Pipeline cost optimization
-- [ ] Multi-repository support (monorepos)
+### v1.0 (Stable Release)
+- [ ] PyPI package release
+- [ ] Complete documentation
+- [ ] Production-ready features
+- [ ] Extensive testing across platforms
+- [ ] Performance optimizations
 
 ### v2.0 (Long-term)
 - [ ] Visual pipeline editor
@@ -515,15 +537,17 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Support
 
-- **Documentation**: [https://auto-ci.dev/docs](https://auto-ci.dev/docs)
-- **Issues**: [GitHub Issues](https://github.com/auto-ci/auto-ci/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/auto-ci/auto-ci/discussions)
-- **Email**: support@auto-ci.dev
+- **Repository**: [https://github.com/souvik03-136/auto-ci](https://github.com/souvik03-136/auto-ci)
+- **Issues**: [GitHub Issues](https://github.com/souvik03-136/auto-ci/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/souvik03-136/auto-ci/discussions)
 
-## 🌟 Star History
+## 🌟 Show Your Support
 
-[![Star History Chart](https://api.star-history.com/svg?repos=auto-ci/auto-ci&type=Date)](https://star-history.com/#auto-ci/auto-ci&Date)
+Give a ⭐️ if this project helped you! Your support helps drive development.
+
+[![GitHub stars](https://img.shields.io/github/stars/souvik03-136/auto-ci?style=social)](https://github.com/souvik03-136/auto-ci/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/souvik03-136/auto-ci?style=social)](https://github.com/souvik03-136/auto-ci/network)
 
 ---
 
-**Made with ❤️ by souvik**
+**Made with ❤️ by [souvik](www.linkedin.com/in/souvik-mahanta)**
